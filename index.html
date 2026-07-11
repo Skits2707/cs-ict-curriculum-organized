@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS & ICT Curriculum — Document Navigator</title>
+<style>
+:root{--navy:#1a2a3e;--navy-light:#2d4a6a;--terracotta:#c45d3e;--cream:#faf8f5;--cream-warm:#f5f0eb;--sage:#7a8b6f;--text-light:#4a5a6a;--border:#e0d8cf;--radius:12px;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--cream);color:var(--navy);line-height:1.7;}
+header{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 100%);color:#fff;padding:48px 32px;text-align:center;}
+header h1{font-size:2rem;font-weight:700;margin-bottom:8px;}
+header p{color:rgba(255,255,255,0.8);max-width:600px;margin:0 auto;}
+.container{max-width:1100px;margin:0 auto;padding:40px 32px;}
+.programme-block{margin-bottom:40px;background:#fff;border-radius:var(--radius);border:1px solid var(--border);overflow:hidden;}
+.programme-header{padding:24px 28px;background:var(--cream-warm);border-bottom:1px solid var(--border);}
+.programme-header h2{font-size:1.25rem;color:var(--navy);margin-bottom:4px;}
+.programme-header .meta{font-size:0.85rem;color:var(--text-light);}
+.programme-body{padding:24px 28px;}
+.folder-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;}
+.folder-link{display:flex;align-items:center;gap:12px;padding:16px;background:var(--cream);border-radius:8px;border:1px solid var(--border);text-decoration:none;color:var(--navy);transition:all 0.2s;}
+.folder-link:hover{border-color:var(--terracotta);transform:translateX(4px);}
+.folder-icon{font-size:1.5rem;}
+.folder-name{font-size:0.9rem;font-weight:600;}
+.folder-count{font-size:0.75rem;color:var(--text-light);}
+.badge{display:inline-block;padding:3px 10px;border-radius:100px;font-size:0.7rem;font-weight:600;margin-left:8px;}
+.badge-pdf{background:var(--terracotta);color:#fff;}
+.badge-html{background:var(--sage);color:#fff;}
+footer{text-align:center;padding:32px;color:var(--text-light);font-size:0.85rem;border-top:1px solid var(--border);}
+</style>
+</head>
+<body>
+<header>
+<h1>📚 CS & ICT Curriculum Navigator</h1>
+<p>Organized document library for IGCSE, A-Level, IB DP, and ICT programmes</p>
+</header>
+
+<div class="container">
+
+<div class="programme-block">
+<div class="programme-header">
+<h2>01 — IGCSE Computer Science <span class="badge badge-pdf">PDF</span></h2>
+<div class="meta">Cambridge 0478 • Ages 14–16 • 4 Semesters</div>
+</div>
+<div class="programme-body">
+<div class="folder-grid">
+<a class="folder-link" href="./01_IGCSE_Computer_Science/Year_9/Semester_1/"><span class="folder-icon">📁</span><div><div class="folder-name">Year 9 — Semester 1</div><div class="folder-count">Data Representation, Hardware, Networks</div></div></a>
+<a class="folder-link" href="./01_IGCSE_Computer_Science/Year_9/Semester_2/"><span class="folder-icon">📁</span><div><div class="folder-name">Year 9 — Semester 2</div><div class="folder-count">Programming, Control Structures, Problem Solving</div></div></a>
+<a class="folder-link" href="./01_IGCSE_Computer_Science/Year_10/Semester_1/"><span class="folder-icon">📁</span><div><div class="folder-name">Year 10 — Semester 1</div><div class="folder-count">Consolidation, Exam Preparation</div></div></a>
+<a class="folder-link" href="./01_IGCSE_Computer_Science/Year_10/Semester_2/"><span class="folder-icon">📁</span><div><div class="folder-name">Year 10 — Semester 2</div><div class="folder-count">Final Revision, Mock Exams</div></div></a>
+</div>
+</div>
+</div>
+
+<div class="programme-block">
+<div class="programme-header">
+<h2>02 — A-Level Computer Science <span class="badge badge-html">HTML</span><span class="badge badge-pdf">PDF</span></h2>
+<div class="meta">Cambridge 9618 • Ages 16–18 • 4 Semesters</div>
+</div>
+<div class="programme-body">
+<div class="folder-grid">
+<a class="folder-link" href="./02_A_Level_Computer_Science/AS_Level/Semester_1/"><span class="folder-icon">📁</span><div><div class="folder-name">AS Level — Semester 1</div><div class="folder-count">Information Representation, Hardware, Security</div></div></a>
+<a class="folder-link" href="./02_A_Level_Computer_Science/AS_Level/Semester_2/"><span class="folder-icon">📁</span><div><div class="folder-name">AS Level — Semester 2</div><div class="folder-count">Programming Fundamentals, Data Structures</div></div></a>
+<a class="folder-link" href="./02_A_Level_Computer_Science/A2_Level/Semester_1/"><span class="folder-icon">📁</span><div><div class="folder-name">A2 Level — Semester 1</div><div class="folder-count">Advanced Data Communication, AI, Hardware</div></div></a>
+<a class="folder-link" href="./02_A_Level_Computer_Science/A2_Level/Semester_2/"><span class="folder-icon">📁</span><div><div class="folder-name">A2 Level — Semester 2</div><div class="folder-count">Programming Project, Revision, Final Exams</div></div></a>
+</div>
+</div>
+</div>
+
+<div class="programme-block">
+<div class="programme-header">
+<h2>03 — IB DP Computer Science <span class="badge badge-html">HTML</span><span class="badge badge-pdf">PDF</span></h2>
+<div class="meta">IB HL/SL • Ages 16–18 • 4 Semesters</div>
+</div>
+<div class="programme-body">
+<div class="folder-grid">
+<a class="folder-link" href="./03_IB_DP_Computer_Science/Year_1_SL_HL/Semester_1/"><span class="folder-icon">📁</span><div><div class="folder-name">Year 1 — Semester 1</div><div class="folder-count">System Fundamentals, Computer Organization</div></div></a>
+<a class="folder-link" href="./03_IB_DP_Computer_Science/Year_1_SL_HL/Semester_2/"><span class="folder-icon">📁</span><div><div class="folder-name">Year 1 — Semester 2</div><div class="folder-count">Networks, Computational Thinking</div></div></a>
+<a class="folder-link" href="./03_IB_DP_Computer_Science/Year_2_SL_HL/Semester_1/"><span class="folder-icon">📁</span><div><div class="folder-name">Year 2 — Semester 1</div><div class="folder-count">HL Data Structures, Resource Management, IA</div></div></a>
+<a class="folder-link" href="./03_IB_DP_Computer_Science/Year_2_SL_HL/Semester_2/"><span class="folder-icon">📁</span><div><div class="folder-name">Year 2 — Semester 2</div><div class="folder-count">HL Control Systems, Revision, Exams</div></div></a>
+</div>
+</div>
+</div>
+
+<div class="programme-block">
+<div class="programme-header">
+<h2>04 — ICT Programme <span class="badge badge-html">HTML</span><span class="badge badge-pdf">PDF</span></h2>
+<div class="meta">School-based • Ages 7–16 • K–12 Progression</div>
+</div>
+<div class="programme-body">
+<div class="folder-grid">
+<a class="folder-link" href="./04_ICT_Program/Grades_2-3/"><span class="folder-icon">📁</span><div><div class="folder-name">Grades 2–3</div><div class="folder-count">Digital Basics, Digital Creation, Safety</div></div></a>
+<a class="folder-link" href="./04_ICT_Program/Grades_4-5/"><span class="folder-icon">📁</span><div><div class="folder-name">Grades 4–5</div><div class="folder-count">Productivity Tools, Spreadsheets, Research</div></div></a>
+<a class="folder-link" href="./04_ICT_Program/Grades_6-8/"><span class="folder-icon">📁</span><div><div class="folder-name">Grades 6–8</div><div class="folder-count">Advanced Productivity, Programming, Cybersecurity</div></div></a>
+<a class="folder-link" href="./04_ICT_Program/IGCSE_ICT/Year_9/"><span class="folder-icon">📁</span><div><div class="folder-name">IGCSE ICT — Year 9</div><div class="folder-count">Computer Systems, Document Production</div></div></a>
+<a class="folder-link" href="./04_ICT_Program/IGCSE_ICT/Year_10/"><span class="folder-icon">📁</span><div><div class="folder-name">IGCSE ICT — Year 10</div><div class="folder-count">Data Analysis, Databases, Mock Exams</div></div></a>
+</div>
+</div>
+</div>
+
+<div class="programme-block">
+<div class="programme-header">
+<h2>05 — Supporting Documents <span class="badge badge-html">HTML</span></h2>
+<div class="meta">Cross-programme resources and professional materials</div>
+</div>
+<div class="programme-body">
+<div class="folder-grid">
+<a class="folder-link" href="./05_Supporting_Documents/Bilingual_Glossaries/"><span class="folder-icon">📁</span><div><div class="folder-name">Bilingual Glossaries</div><div class="folder-count">150–200 terms per programme (EN/CN/Pinyin)</div></div></a>
+<a class="folder-link" href="./05_Supporting_Documents/Bridge_Documents/"><span class="folder-icon">📁</span><div><div class="folder-name">Bridge Documents</div><div class="folder-count">IGCSE→A-Level, IGCSE→IB DP, ICT→CS</div></div></a>
+<a class="folder-link" href="./05_Supporting_Documents/Assessment_Resources/"><span class="folder-icon">📁</span><div><div class="folder-name">Assessment Resources</div><div class="folder-count">Mark schemes, rubrics, intervention protocols</div></div></a>
+<a class="folder-link" href="./05_Supporting_Documents/Professional_Development/"><span class="folder-icon">📁</span><div><div class="folder-name">Professional Development</div><div class="folder-count">Enrichment, university pathways, TOK connections</div></div></a>
+</div>
+</div>
+</div>
+
+</div>
+
+<footer>
+<p>Connor Scanlan — K–12 Computer Science & ICT Curriculum Portfolio</p>
+<p>📧 Connor.scanlan1205@outlook.com | Shenzhen, China</p>
+</footer>
+
+</body>
+</html>
